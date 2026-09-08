@@ -1468,7 +1468,44 @@ footer small {
   .hero h1 {
     font-size: 38px !important;
   }
+/* =====================================
+   REMOVE EXTRA BOTTOM EMPTY SPACE
+===================================== */
 
+.section {
+  padding-bottom: 15px !important;
+}
+
+/* Last section spacing */
+#contact {
+  padding-bottom: 20px !important;
+}
+
+/* Footer top and bottom space */
+footer {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+
+/* MOBILE */
+@media (max-width: 520px) {
+
+  .section {
+    padding-top: 55px !important;
+    padding-bottom: 10px !important;
+  }
+
+  #contact {
+    padding-bottom: 15px !important;
+  }
+
+  footer {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+}
   .photo-card {
     width: 220px !important;
   }
